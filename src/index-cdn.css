@@ -1,7 +1,5 @@
-/* Fixed Tailwind CSS Configuration */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Alternative Tailwind CSS Setup - CDN Version */
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@3.4.0/dist/tailwind.min.css');
 
 body {
   margin: 0;
@@ -17,7 +15,7 @@ code {
     monospace;
 }
 
-/* Custom utility classes for consistent styling */
+/* Custom utility classes */
 .btn-primary {
   @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors duration-200;
 }
